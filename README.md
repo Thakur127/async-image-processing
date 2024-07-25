@@ -58,7 +58,7 @@ Change you directory to repository directory to start
 
     npm run dev
 
-#### Open paste below link in your browser
+#### Paste below link in your browser
 
     http://localhost:5173
 
