@@ -157,7 +157,7 @@ curl -X POST "http://localhost:8000/api/upload" \
 
 **Example Request:**
 
-```
+```sh
 curl -X GET "http://localhost:8000/api/status?request_id=unique-request-id"
 -H "accept: application/json"
 ```
