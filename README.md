@@ -2,9 +2,9 @@
 
 ### Download file
 
-    ```sh
-    git clone https://github.com/Thakur127/async-image-processing.git
-    ```
+```sh
+git clone https://github.com/Thakur127/async-image-processing.git
+```
 
 ## NOTE
 
