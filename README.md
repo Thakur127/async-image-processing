@@ -2,9 +2,7 @@
 
 ### Download file
 
-```sh
-git clone https://github.com/Thakur127/async-image-processing.git
-```
+    git clone https://github.com/Thakur127/async-image-processing.git
 
 ## NOTE
 
@@ -16,41 +14,29 @@ Before moving further make sure your system has python 3.12 and node v21.7.1 ins
 
 #### Change directory
 
-    ```sh
     cd backend
-    ```
 
 #### Create Virtual Enviornment
 
-    ```sh
     python -m venv venv
-    ```
 
 #### Activate Virtual Enviornment
 
 ##### for window
 
-    ```sh
     .\venv\Scripts\activate
-    ```
 
 ##### for git bash in window
 
-    ```sh
     source venv/Scripts/activate
-    ```
 
 #### Install Dependencies
 
-    ```sh
     pip install -r requirements.txt
-    ```
 
 #### Now run backend server
 
-    ```sh
     uvicorn main:app --host 127.0.0.1 --port 8000 --reload
-    ```
 
 Now our server is up and running. You can test it, either using api endpoints or using frontend.
 
@@ -62,21 +48,15 @@ Change you directory to repository directory to start
 
 #### Change directory
 
-    ```sh
     cd frontend
-    ```
 
 #### Install node modules
 
-    ```sh
     npm install
-    ```
 
 #### Now run client/frontend server
 
-    ```sh
     npm run dev
-    ```
 
 #### Open paste below link in your browser
 
@@ -177,7 +157,7 @@ curl -X POST "http://localhost:8000/api/upload" \
 
 **Example Request:**
 
-```sh
+```
 curl -X GET "http://localhost:8000/api/status?request_id=unique-request-id"
 -H "accept: application/json"
 ```
